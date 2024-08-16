@@ -3,7 +3,7 @@ package com.contriverz.camera.cap;
 import android.util.Log;
 import android.hardware.Camera;
 public class CameraCap {
-
+    private Camera camera;
     public void openCamera() {
         try {
             camera = Camera.open();
