@@ -7,4 +7,12 @@ export class CameraCapWeb extends WebPlugin implements CameraCapPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async openCamera(): Promise<{ imageUri: string }> {
+    console.log('Camera not implemented on web');
+    throw this.unimplemented('Camera not implemented on web.');
+  }
 }
+const CameraCap = new CameraCapWeb();
+
+export { CameraCap };
