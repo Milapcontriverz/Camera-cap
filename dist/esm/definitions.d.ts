@@ -4,4 +4,7 @@ export interface CameraCapPlugin {
     }): Promise<{
         value: string;
     }>;
+    openCamera(): Promise<{
+        imageUri: string;
+    }>;
 }

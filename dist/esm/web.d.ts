@@ -6,4 +6,9 @@ export declare class CameraCapWeb extends WebPlugin implements CameraCapPlugin {
     }): Promise<{
         value: string;
     }>;
+    openCamera(): Promise<{
+        imageUri: string;
+    }>;
 }
+declare const CameraCap: CameraCapWeb;
+export { CameraCap };

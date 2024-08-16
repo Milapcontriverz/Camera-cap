@@ -20,6 +20,16 @@
         "docs": "",
         "complexTypes": [],
         "slug": "echo"
+      },
+      {
+        "name": "openCamera",
+        "signature": "() => Promise<{ imageUri: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ imageUri: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "opencamera"
       }
     ],
     "properties": []
